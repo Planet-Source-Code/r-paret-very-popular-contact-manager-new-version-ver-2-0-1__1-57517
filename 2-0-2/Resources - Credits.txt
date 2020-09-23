@@ -1,0 +1,18 @@
+
+
+
+Resources - Credits
+-------------------
+
+28 November 2004
+
+
+Form BackupRestore origional by: Ormond Stark
+
+Module vbXCopy by: Ormond Stark
+
+Class Module clsIniFile by: Robert Rowe
+
+User Control Comand Button (XPButton) by: ?
+
+Form Register Origional By: ?

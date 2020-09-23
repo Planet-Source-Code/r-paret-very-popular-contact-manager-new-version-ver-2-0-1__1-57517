@@ -1,0 +1,169 @@
+[Root]
+Most Recent Package=Credo Contact Manager Ver 2.0.1
+Most Recent Deploy=Folder Deployment 1
+
+
+[Deploy|Web Deployment 1|Root]
+Package=Credo Contact Manager Ver 2.0.1
+Handler=PDWizard.WebPostDplySubWiz
+
+[Deploy|Web Deployment 1|Package Files]
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\setup.exe=Yes
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\SETUP.LST=Yes
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Credo Contact Manager.CAB=Yes
+
+[Deploy|Web Deployment 1|Other Files and Folders]
+c:\documents and settings\rudi-p4\my documents\crdo software\finished\credo contact manager\2-0-1\data=
+c:\documents and settings\rudi-p4\my documents\crdo software\finished\credo contact manager\2-0-1\program.ini=
+c:\documents and settings\rudi-p4\my documents\crdo software\finished\credo contact manager\2-0-1\return.dll=
+c:\documents and settings\rudi-p4\my documents\crdo software\finished\credo contact manager\2-0-1\settings.ini=
+
+[Deploy|Web Deployment 1|WebPost Site]
+URL=http://localhost
+Provider={8B14B770-748C-11D0-A309-00C04FD7CFC5}
+Explode=No
+
+[Deploy|Folder Deployment 1|Root]
+Package=Credo Contact Manager Ver 2.0.1
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web
+
+
+[Package|Credo Contact Manager Ver 2.0.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web
+
+[Package|Credo Contact Manager Ver 2.0.1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Credo Contact Manager Ver 2.0.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Credo Contact Manager Ver 2.0.1|Files Found]
+Program.ini=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Program.ini
+Settings.ini=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Settings.ini
+
+[Package|Credo Contact Manager Ver 2.0.1|Files Released]
+
+[Package|Credo Contact Manager Ver 2.0.1|Missing Dependency Information]
+
+[Package|Credo Contact Manager Ver 2.0.1|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|Credo Contact Manager Ver 2.0.1|Files Added]
+program.ini=
+settings.ini=
+c:\program files\credo contact manager\data\db\credodata\credo computers=
+c:\program files\credo contact manager\data\db\credodata\credo software=
+
+[Package|Credo Contact Manager Ver 2.0.1|Files Removed]
+
+[Package|Credo Contact Manager Ver 2.0.1|Files In Project]
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Release\Credo Contact Manager.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\return.dll=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\WINNT\system32\MSMAPI32.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Credo Contact Manager\Data\db\CredoData\Credo Computers=Yes
+C:\Program Files\Credo Contact Manager\Data\db\CredoData\Credo Software=Yes
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Program.ini=Yes
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Settings.ini=Yes
+
+[Package|Credo Contact Manager Ver 2.0.1|Configure Registry Files]
+Applicable=No
+
+[Package|Credo Contact Manager Ver 2.0.1|Configure Remote Servers]
+Applicable=No
+
+[Package|Credo Contact Manager Ver 2.0.1|Install Locations]
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Release\Credo Contact Manager.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\return.dll=$(AppPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Credo Contact Manager\Program.ini=$(AppPath)
+C:\Program Files\Credo Contact Manager\Settings.ini=$(AppPath)
+C:\Program Files\Credo Contact Manager\Data\db\CredoData\Credo Computers=$(AppPath)
+C:\Program Files\Credo Contact Manager\Data\db\CredoData\Credo Software=$(AppPath)
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Program.ini=$(AppPath)
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Settings.ini=$(AppPath)
+
+[Package|Credo Contact Manager Ver 2.0.1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Release\Credo Contact Manager.exe=No
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\return.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Credo Contact Manager\Program.ini=No
+C:\Program Files\Credo Contact Manager\Settings.ini=No
+C:\Program Files\Credo Contact Manager\Data\db\CredoData\Credo Computers=No
+C:\Program Files\Credo Contact Manager\Data\db\CredoData\Credo Software=No
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Program.ini=No
+C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Settings.ini=No
+
+[Package|Credo Contact Manager Ver 2.0.1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Credo Contact Manager Ver 2.0.1
+
+[Package|Credo Contact Manager Ver 2.0.1|Package]
+PackageFolder=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web
+ProjectFolder=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1
+ServerSideCab=
+File1=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\setup.exe
+File2=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Setup.Lst
+File3=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Credo 1.CAB
+File4=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Credo 2.CAB
+File5=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Credo 3.CAB
+File6=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Credo 4.CAB
+File7=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Credo 5.CAB
+File8=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Credo 6.CAB
+File9=C:\Documents and Settings\Rudi-P4\My Documents\Crdo Software\Finished\Credo Contact Manager\2-0-1\Setup\Web\Credo 7.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Credo Contact Manager Ver 2.0.1|IconGroups]
+Group0=Credo Software
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Credo Contact Manager Ver 2.0.1|Credo Software]
+Icon1="Credo Contact Manager.exe"
+Title1=Credo Contact Manager Ver 2.0.1
+StartIn1=$(AppPath)
+Key1=Icon1

@@ -1,0 +1,30 @@
+
+
+
+LICENCE
+-------
+
+Credo Contact Manager Copyright (c) 28 November 2004 Credo Software, R. Paret.
+
+
+By using this code, you agree to the following terms: 
+  
+1) You may use this code and change it in any way, in your own programs (and may compile it into a program and
+   distribute it in compiled format for languages that allow it) freely and with no charge.   
+
+2) You MAY NOT redistribute this code (for example to a web site) without written permission
+   from Credo Software. Failure to do so is a violation of copyright laws.   
+
+3) You can not use this form design and layout in any way.  Failure to do so is a violation of copyright laws.
+
+4) You will abide by any additional copyright restrictions which authors may have placed in the code or code's description.
+
+5) This LICENCE must be included in your code and/or program  release (or as a resource).
+
+6) This code/software is provided as is, use of this code/software is at your own risk!
+   There is no waranty in any way.
+
+7) Credo Software or R. paret will not be liable to anyone using this code/software, in any way for damages
+   in any circumstances
+
+8) Do not use this code/software if you do not agree with this LICENCE.

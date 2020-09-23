@@ -1,0 +1,25 @@
+
+
+For the program to run you must do the folowing:
+------------------------------------------------
+
+The directory 'Data' (incl. sub directory's) must be in the directory where the aplication is.
+
+The files 'Program.ini' & 'Settings.ini' must also be in the directory where the aplication is.
+
+The file return.txt must be saved as return.dll inthe directory where th aplication is.
+
+ 
+
+
+CREDO SOFTWARE
+
+
+
+Credo Contact Manager
+---------------------
+
+Web Site:  http://www.credo-web.co.uk:90/Credo_C-M/credo_c-m
+
+EWmail: credo-software@credo-web.co.uk
+
